@@ -4,7 +4,7 @@
     <xsl:output method="xhtml" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
                 doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN" indent="yes"/>
     
-    <xsl:template match="/">
+    <xsl:template name="musicLibraryReport" match="/">
         <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
             <head>
                 <title>CD Collection</title>
@@ -21,22 +21,22 @@
                         <th>numberOfCds</th>
                         <th>price</th>
                     </tr>
-                    <xsl:for-each select="cdRaport">
+                    <xsl:for-each select="musicLibraryReport/cd">
                         <tr>
                             <td>
-                                <xsl:value-of select="title"/>
+                                <xsl:value-of select="."/>
                             </td>
                             <td>
                                 <xsl:value-of select="premiereDate"/>
                             </td>
                             <td>
-                                <xsl:value-of select="@cdMusician"/>
+                                <xsl:value-of select="cdMusician"/>
                             </td>
                             <td>
-                                <xsl:value-of select="@cdGenre"/>
+                                <xsl:value-of select="cdGenre"/>
                             </td>
                             <td>
-                                <xsl:value-of select="@cdLanguage"/>
+                                <xsl:value-of select="cdLanguage"/>
                             </td>
                             <td>
                                 <xsl:value-of select="numberOfCds"/>

@@ -1,0 +1,256 @@
+<musicLibraryReport>
+   <statistic>
+      <summary>
+         <songsCount>24</songsCount>
+         <rockSongsCount>5</rockSongsCount>
+         <popSongsCount>4</popSongsCount>
+         <otherSongsCount>1</otherSongsCount>
+         <polishSongsCount>11</polishSongsCount>
+         <mostPrice>79.99</mostPrice>
+      </summary>
+      <authorsDocument>
+         <author>Maciej Cierpikowski</author>
+         <author>Jakub Łokieć</author>
+      </authorsDocument>
+   </statistic>
+   <cd>
+      <title>1984</title>
+      <cdMusician>Paweł Domagała</cdMusician>
+      <cdLanguage>polski</cdLanguage>
+      <cdDistributor>Mystic Production</cdDistributor>
+      <premiereDate>16.11.2018</premiereDate>
+      <numberOfCds>1</numberOfCds>
+      <cdGenre>pop</cdGenre>
+      <price>36.99 PLN</price>
+   </cd>
+   <cd>
+      <title>A Head Full Of Dreams</title>
+      <cdMusician>Coldplay </cdMusician>
+      <cdLanguage>angielski</cdLanguage>
+      <cdDistributor>Warner Music Poland</cdDistributor>
+      <premiereDate>04.12.2015</premiereDate>
+      <numberOfCds>1</numberOfCds>
+      <cdGenre>soft rock</cdGenre>
+      <price>46.99 PLN</price>
+   </cd>
+   <cd>
+      <title>Black Ice</title>
+      <cdMusician>AC/DC </cdMusician>
+      <cdLanguage>angielski</cdLanguage>
+      <cdDistributor>Sony Music Entertainment</cdDistributor>
+      <premiereDate>20.10.2008</premiereDate>
+      <numberOfCds>1</numberOfCds>
+      <cdGenre>hard rock</cdGenre>
+      <price>79.99 PLN</price>
+   </cd>
+   <cd>
+      <title>CAFÉ BELGA</title>
+      <cdMusician>Taco Hemingway </cdMusician>
+      <cdLanguage>polski</cdLanguage>
+      <cdDistributor>Asfalt Distro</cdDistributor>
+      <premiereDate>13.07.2018</premiereDate>
+      <numberOfCds>2</numberOfCds>
+      <cdGenre>rap</cdGenre>
+      <price>45.99 PLN</price>
+   </cd>
+   <cd>
+      <title>Gallery</title>
+      <cdMusician>A R I Z O N A </cdMusician>
+      <cdLanguage>angielski</cdLanguage>
+      <cdDistributor>Atlantic Records</cdDistributor>
+      <premiereDate>19.05.2017</premiereDate>
+      <numberOfCds>1</numberOfCds>
+      <cdGenre>rock alternatywny</cdGenre>
+      <price>7.99 PLN</price>
+   </cd>
+   <cd>
+      <title>Ghost Stories</title>
+      <cdMusician>Coldplay </cdMusician>
+      <cdLanguage>angielski</cdLanguage>
+      <cdDistributor>Warner Music Poland</cdDistributor>
+      <premiereDate>19.05.2014</premiereDate>
+      <numberOfCds>1</numberOfCds>
+      <cdGenre>soft rock</cdGenre>
+      <price>34.99 PLN</price>
+   </cd>
+   <cd>
+      <title>Helsinki</title>
+      <cdMusician>Daria Zawiałow</cdMusician>
+      <cdLanguage>polski</cdLanguage>
+      <cdDistributor>Sony Music Entertainment</cdDistributor>
+      <premiereDate>08.03.2019</premiereDate>
+      <numberOfCds>1</numberOfCds>
+      <cdGenre>pop</cdGenre>
+      <price>35.99 PLN</price>
+   </cd>
+   <cd>
+      <title>Małomiasteczkowy</title>
+      <cdMusician>Dawid Podsiadło</cdMusician>
+      <cdLanguage>polski</cdLanguage>
+      <cdDistributor>Sony Music Entertainment</cdDistributor>
+      <premiereDate>19.10.2018</premiereDate>
+      <numberOfCds>1</numberOfCds>
+      <cdGenre>pop</cdGenre>
+      <price>36.99 PLN</price>
+   </cd>
+   <cd>
+      <title>Mini dom</title>
+      <cdMusician>Kortez </cdMusician>
+      <cdLanguage>polski</cdLanguage>
+      <cdDistributor>Firma Księgarska Olesiejuk</cdDistributor>
+      <premiereDate>21.09.2018</premiereDate>
+      <numberOfCds>1</numberOfCds>
+      <cdGenre>pop</cdGenre>
+      <price>28.99 PLN</price>
+   </cd>
+   <cd>
+      <title>Mylo Xyloto</title>
+      <cdMusician>Coldplay </cdMusician>
+      <cdLanguage>angielski</cdLanguage>
+      <cdDistributor>Warner Music Poland</cdDistributor>
+      <premiereDate>24.10.2011</premiereDate>
+      <numberOfCds>1</numberOfCds>
+      <cdGenre>soft rock</cdGenre>
+      <price>30.99 PLN</price>
+   </cd>
+   <cd>
+      <title>Nic mnie nie rusza</title>
+      <cdMusician>Elektryczne Gitary </cdMusician>
+      <cdLanguage>polski</cdLanguage>
+      <cdDistributor>Universal Music Polska</cdDistributor>
+      <premiereDate>20.03.2012</premiereDate>
+      <numberOfCds>1</numberOfCds>
+      <cdGenre>rock</cdGenre>
+      <price>26.99 PLN</price>
+   </cd>
+   <cd>
+      <title>Parachutes</title>
+      <cdMusician>Coldplay </cdMusician>
+      <cdLanguage>angielski</cdLanguage>
+      <cdDistributor>Warner Music Poland</cdDistributor>
+      <premiereDate>10.07.2000</premiereDate>
+      <numberOfCds>1</numberOfCds>
+      <cdGenre>soft rock</cdGenre>
+      <price>24.99 PLN</price>
+   </cd>
+   <cd>
+      <title>Przechodzień o wschodzie</title>
+      <cdMusician>Strachy na Lachy </cdMusician>
+      <cdLanguage>polski</cdLanguage>
+      <cdDistributor>e-Muzyka</cdDistributor>
+      <premiereDate>29.09.2017</premiereDate>
+      <numberOfCds>1</numberOfCds>
+      <cdGenre>rock alternatywny</cdGenre>
+      <price>28.99 PLN</price>
+   </cd>
+   <cd>
+      <title>Talizman</title>
+      <cdMusician>Kamil Bednarek</cdMusician>
+      <cdLanguage>polski</cdLanguage>
+      <cdDistributor>e-Muzyka</cdDistributor>
+      <premiereDate>01.12.2017</premiereDate>
+      <numberOfCds>1</numberOfCds>
+      <cdGenre>reggae</cdGenre>
+      <price>30.99 PLN</price>
+   </cd>
+   <cd>
+      <title>The Dark Side Of The Moon</title>
+      <cdMusician>Pink Floyd </cdMusician>
+      <cdLanguage>angielski</cdLanguage>
+      <cdDistributor>Warner Music Poland</cdDistributor>
+      <premiereDate>26.09.2011</premiereDate>
+      <numberOfCds>1</numberOfCds>
+      <cdGenre>rock progresywny</cdGenre>
+      <price>31.99 PLN</price>
+   </cd>
+   <cd>
+      <title>The Division Bell</title>
+      <cdMusician>Pink Floyd </cdMusician>
+      <cdLanguage>angielski</cdLanguage>
+      <cdDistributor>Warner Music Poland</cdDistributor>
+      <premiereDate>26.09.2011</premiereDate>
+      <numberOfCds>1</numberOfCds>
+      <cdGenre>rock progresywny</cdGenre>
+      <price>31.99 PLN</price>
+   </cd>
+   <cd>
+      <title>The Greatest Hits</title>
+      <cdMusician>Sławomir </cdMusician>
+      <cdLanguage>polski</cdLanguage>
+      <cdDistributor>Agora S.A.</cdDistributor>
+      <premiereDate>10.04.2018</premiereDate>
+      <numberOfCds>1</numberOfCds>
+      <cdGenre>disco polo</cdGenre>
+      <price>22.99 PLN</price>
+   </cd>
+   <cd>
+      <title>The Greatest Hits I, II &amp; III</title>
+      <cdMusician>Queen </cdMusician>
+      <cdLanguage>angielski</cdLanguage>
+      <cdDistributor>Universal Music Polska</cdDistributor>
+      <premiereDate>24.06.2011</premiereDate>
+      <numberOfCds>3</numberOfCds>
+      <cdGenre>rock</cdGenre>
+      <price>59.99 PLN</price>
+   </cd>
+   <cd>
+      <title>The Wall</title>
+      <cdMusician>Pink Floyd </cdMusician>
+      <cdLanguage>angielski</cdLanguage>
+      <cdDistributor>Warner Music Poland</cdDistributor>
+      <premiereDate>26.09.2011</premiereDate>
+      <numberOfCds>2</numberOfCds>
+      <cdGenre>rock progresywny</cdGenre>
+      <price>40.99 PLN</price>
+   </cd>
+   <cd>
+      <title>This House Is Not For Sale</title>
+      <cdMusician>Bon Jovi </cdMusician>
+      <cdLanguage>angielski</cdLanguage>
+      <cdDistributor>Universal Music Polska</cdDistributor>
+      <premiereDate>04.11.2016</premiereDate>
+      <numberOfCds>1</numberOfCds>
+      <cdGenre>rock</cdGenre>
+      <price>39.99 PLN</price>
+   </cd>
+   <cd>
+      <title>Walls</title>
+      <cdMusician>Kings of Leon </cdMusician>
+      <cdLanguage>angielski</cdLanguage>
+      <cdDistributor>Sony Music Entertainment</cdDistributor>
+      <premiereDate>14.10.2016</premiereDate>
+      <numberOfCds>1</numberOfCds>
+      <cdGenre>rock alternatywny</cdGenre>
+      <price>33.99 PLN</price>
+   </cd>
+   <cd>
+      <title>Widmo</title>
+      <cdMusician>PRO8L3M </cdMusician>
+      <cdLanguage>polski</cdLanguage>
+      <cdDistributor>Agora S.A.</cdDistributor>
+      <premiereDate>03.01.2019</premiereDate>
+      <numberOfCds>1</numberOfCds>
+      <cdGenre>rap</cdGenre>
+      <price>39.99 PLN</price>
+   </cd>
+   <cd>
+      <title>Wilki</title>
+      <cdMusician>Wilki </cdMusician>
+      <cdLanguage>polski</cdLanguage>
+      <cdDistributor>Universal Music Polska</cdDistributor>
+      <premiereDate>26.10.2018</premiereDate>
+      <numberOfCds>1</numberOfCds>
+      <cdGenre>rock</cdGenre>
+      <price>26.99 PLN</price>
+   </cd>
+   <cd>
+      <title>X &amp; Y</title>
+      <cdMusician>Coldplay </cdMusician>
+      <cdLanguage>angielski</cdLanguage>
+      <cdDistributor>Warner Music Poland</cdDistributor>
+      <premiereDate>06.06.2005</premiereDate>
+      <numberOfCds>1</numberOfCds>
+      <cdGenre>soft rock</cdGenre>
+      <price>21.99 PLN</price>
+   </cd>
+</musicLibraryReport>
