@@ -1,16 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='zadanie3-xhtml.xslt'?>
+
 <musicLibraryReport>
    <statistic>
       <summary>
-         <songsCount>24</songsCount>
-         <rockSongsCount>5</rockSongsCount>
-         <popSongsCount>4</popSongsCount>
-         <otherSongsCount>1</otherSongsCount>
-         <polishSongsCount>11</polishSongsCount>
-         <mostPrice>79.99</mostPrice>
+         <albumCount>24</albumCount>
+         <rockAlbumCount>5</rockAlbumCount>
+         <popAlbumCount>4</popAlbumCount>
+         <otherAlbumCount>1</otherAlbumCount>
+         <polishAlbumCount>11</polishAlbumCount>
+         <highestPrice>79.99 PLN</highestPrice>
+         <lowestPrice>7.99 USD</lowestPrice>
+         <reportDate>28.04.2019 18:25</reportDate>
       </summary>
       <authorsDocument>
-         <author>Maciej Cierpikowski</author>
-         <author>Jakub Łokieć</author>
+         <author>Maciej Cierpikowski 210153</author>
+         <author>Jakub Łokieć 210259</author>
       </authorsDocument>
    </statistic>
    <cd>
@@ -61,7 +66,7 @@
       <premiereDate>19.05.2017</premiereDate>
       <numberOfCds>1</numberOfCds>
       <cdGenre>rock alternatywny</cdGenre>
-      <price>7.99 PLN</price>
+      <price>7.99 USD</price>
    </cd>
    <cd>
       <title>Ghost Stories</title>
