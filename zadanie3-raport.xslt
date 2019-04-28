@@ -5,36 +5,44 @@
     <xsl:template name="MusicStore" match="/document">
         <xsl:element name="musicLibraryReport">
             <xsl:call-template name="Raport" />
-            <xsl:apply-templates select="catalog" />
+            <xsl:apply-templates select="catalog"/>
         </xsl:element>
     </xsl:template>
     <!-- Statistics -->
-    <xsl:template name = "Raport" >
+    <xsl:template name="Raport">
         <xsl:element name="statistic">
             <xsl:element name="summary">
-                <xsl:element name="songsCount">
+                <xsl:element name="albumCount">
                     <xsl:value-of select="count(catalog/cd)"/>
                 </xsl:element>
-                <xsl:element name="rockSongsCount">
+                <xsl:element name="rockAlbumCount">
                     <xsl:value-of select="count(catalog/cd/cdGenre[@genreId = 'SROCK']) + count(document/catalog/cd/cdGenre[@genreId = 'ROCK']) + count(document/catalog/cd/cdGenre[@genreId = 'AROCK']) + count(document/catalog/cd/cdGenre[@genreId = 'PROCK']) + count(document/catalog/cd/cdGenre[@genreId = 'HROCK'])"/>
                 </xsl:element>
-                <xsl:element name="popSongsCount">
+                <xsl:element name="popAlbumCount">
                     <xsl:value-of select="count(catalog/cd/cdGenre[@genreId = 'POP'])"/>
                 </xsl:element>
-                <xsl:element name="otherSongsCount">
+                <xsl:element name="otherAlbumCount">
                     <xsl:value-of select="count(catalog/cd/cdGenre[@genreId = 'DPOLO']) + count(document/catalog/cd/cdGenre[@genreId = 'RAP']) + count(document/catalog/cd/cdGenre[@genreId = 'REG']) "/>
                 </xsl:element>
-                <xsl:element name="polishSongsCount">
+                <xsl:element name="polishAlbumCount">
                     <xsl:value-of select="count(catalog/cd/cdLanguage[@languageId = 'polski'])" />
                 </xsl:element>
-                <xsl:element name="mostPrice">
-                    <xsl:value-of select="max(catalog/cd/price)" />
+                <xsl:element name="highestPrice">
+                    <xsl:variable name="varHighestPrice" select="max(catalog/cd/price)" />
+                    <xsl:value-of select="concat($varHighestPrice, ' ', catalog/cd[price=$varHighestPrice]/price/@currency)" />
+                </xsl:element>
+                <xsl:element name="lowestPrice">
+                    <xsl:variable name="varLowestPrice" select="min(catalog/cd/price)" />
+                    <xsl:value-of select="concat($varLowestPrice, ' ', catalog/cd[price=$varLowestPrice]/price/@currency)" />
+                </xsl:element>
+                <xsl:element name="reportDate">
+                    <xsl:value-of select="format-dateTime(current-dateTime(), '[D01].[M01].[Y0001] [H01]:[m01]')" />
                 </xsl:element>
             </xsl:element>
             <xsl:element name="authorsDocument">
                 <xsl:for-each select="header/authors/author">
                     <xsl:element name="author">
-                        <xsl:value-of select="concat(name, ' ', surname)"/>
+                        <xsl:value-of select="concat(name, ' ', surname, ' ', studentId)"/>
                     </xsl:element>
                 </xsl:for-each>
             </xsl:element>
@@ -56,7 +64,6 @@
             <xsl:apply-templates select="numberOfCds"/>
             <xsl:apply-templates select="cdGenre/@genreId"/>
             <xsl:apply-templates select="price"/>
-            
         </xsl:element>
     </xsl:template>
     <xsl:template name="Title" match="title">
@@ -100,7 +107,7 @@
     </xsl:template>
        <xsl:template name="price" match="price">
         <xsl:element name="price">
-            <xsl:value-of select="concat(. , ' ', /document/catalog/cd/price/@currency)" />
+            <xsl:value-of select="concat(. , ' ', ./@currency)" />
         </xsl:element>
     </xsl:template>
 </xsl:stylesheet>
