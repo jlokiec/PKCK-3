@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <musicLibraryReport>
    <statistic>
       <summary>
          <albumCount>24</albumCount>
-         <rockAlbumCount>5</rockAlbumCount>
+         <rockAlbumCount>16</rockAlbumCount>
          <popAlbumCount>4</popAlbumCount>
-         <otherAlbumCount>1</otherAlbumCount>
+         <otherAlbumCount>4</otherAlbumCount>
          <polishAlbumCount>11</polishAlbumCount>
          <highestPrice>79.99 PLN</highestPrice>
          <lowestPrice>7.99 USD</lowestPrice>
-         <reportDate>28.04.2019 18:25</reportDate>
+         <reportDate>01.05.2019 14:07</reportDate>
       </summary>
       <authorsDocument>
          <author>Maciej Cierpikowski 210153</author>
