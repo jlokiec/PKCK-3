@@ -15,14 +15,26 @@
                 <xsl:element name="albumCount">
                     <xsl:value-of select="count(catalog/cd)"/>
                 </xsl:element>
+
+                <xsl:variable name="rockCount" select="count(catalog/cd/cdGenre[@genreId = 'ROCK'])" />
+                <xsl:variable name="softRockCount" select="count(catalog/cd/cdGenre[@genreId = 'SROCK'])" />
+                <xsl:variable name="altRockCount" select="count(catalog/cd/cdGenre[@genreId = 'AROCK'])" />
+                <xsl:variable name="progressiveRockCount" select="count(catalog/cd/cdGenre[@genreId = 'PROCK'])" />
+                <xsl:variable name="hardRockCount" select="count(catalog/cd/cdGenre[@genreId = 'HROCK'])" />
+
                 <xsl:element name="rockAlbumCount">
-                    <xsl:value-of select="count(catalog/cd/cdGenre[@genreId = 'SROCK']) + count(document/catalog/cd/cdGenre[@genreId = 'ROCK']) + count(document/catalog/cd/cdGenre[@genreId = 'AROCK']) + count(document/catalog/cd/cdGenre[@genreId = 'PROCK']) + count(document/catalog/cd/cdGenre[@genreId = 'HROCK'])"/>
+                    <xsl:value-of select="$rockCount + $softRockCount + $altRockCount + $progressiveRockCount + $hardRockCount"/>
                 </xsl:element>
                 <xsl:element name="popAlbumCount">
                     <xsl:value-of select="count(catalog/cd/cdGenre[@genreId = 'POP'])"/>
                 </xsl:element>
+
+                <xsl:variable name="discoPoloCount" select="count(catalog/cd/cdGenre[@genreId = 'DPOLO'])" />
+                <xsl:variable name="rapCount" select="count(catalog/cd/cdGenre[@genreId = 'RAP'])" />
+                <xsl:variable name="reggaeCount" select="count(catalog/cd/cdGenre[@genreId = 'REG'])" />
+
                 <xsl:element name="otherAlbumCount">
-                    <xsl:value-of select="count(catalog/cd/cdGenre[@genreId = 'DPOLO']) + count(document/catalog/cd/cdGenre[@genreId = 'RAP']) + count(document/catalog/cd/cdGenre[@genreId = 'REG']) "/>
+                    <xsl:value-of select="$discoPoloCount + $rapCount + $reggaeCount"/>
                 </xsl:element>
                 <xsl:element name="polishAlbumCount">
                     <xsl:value-of select="count(catalog/cd/cdLanguage[@languageId = 'polski'])" />
